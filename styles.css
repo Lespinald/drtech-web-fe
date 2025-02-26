@@ -15,33 +15,186 @@ header {
     background-color: #633BF2;
     padding: 15px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 500px;
+}
+
+.header-logo img {
+    height: auto;
+}
+
+.header-background {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.header-background img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 60px;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background: #FFFFFF;
-    padding: 10px;
 }
 
 nav a {
-    color: black;
     text-decoration: none;
-    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 80px;
+    border-radius: 56px;
+    font-size: 58px; /* Ajuste del tamaño de fuente en los enlaces */
 }
 
 nav a:hover {
-    background: #E2E2E2;
+    color: black;
+    font-weight: bold;
+    background: #FFFFFF;
+    border-radius: 56px;
+}
+
+.categorias {
+    text-align: center;
+    padding: 280px 0;
+    background: #FFFFFF;
+}
+
+.categoria-menu {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.categoria-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
 
 .hero {
-    padding: 50px;
-    background: #ccc;
+    padding: 2px;
+    background: #000000;
 }
 
 .hero img {
     max-width: 100%;
     height: auto;
+}
+
+.mosaico {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(150px, auto);
+    gap: 2px;
+    display: grid;
+    width: 100%;
+    margin: 2px auto;
+}
+
+.mosaico-item:nth-child(1) {
+    grid-row: 1 / 2;
+    grid-column: 1 / 1;
+}
+
+.mosaico-item:nth-child(2) {
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+}
+
+.mosaico-item:nth-child(3) {
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+}
+.mosaico-item:nth-child(4) {
+    grid-row: 2 / 3;
+    grid-column: 2 / 2;
+}
+
+.mosaico-item {
+    position: relative;
+}
+
+.mosaico-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.mosaico-item a {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.redes {
+    text-align: center;
+    padding: 100px 700px;
+    background: #FFFFFF;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: left;
+    gap: 250px;
+    font-size: 58px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 60px 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #E2E2E2;
+    color: black;
+    padding: 100px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 58px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 58px;
+    padding: 20px 0;
+    background: #E2E2E2;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-column a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
 }
 
 .boton-morado {
@@ -75,12 +228,5 @@ nav a:hover {
 
 .boton-amarillo:hover {
     background: #FFF9F5;
-}
-
-footer {
-    background: #FFFFFF;
-    color: black;
-    padding: 20px;
-    margin-top: 20px;
 }
 
