@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bebas Neue', sans-serif;
-    color: white;
+    font-weight: lighter;
 }
 
 h1 { font-size: 4.5em; }
@@ -25,7 +25,7 @@ p, a {
 
 header {
     background-color: #633BF2;
-    padding: 1%;
+    padding-left: 3%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,42 +44,36 @@ header {
 }
 
 .header-overlay {
-    margin: 1%;
-    border: 1%;
-    padding: 1%;
+    padding-left: 4%;
     position: absolute;
-    top: 25%;
-    left: 5%;
-    width: 35%;
-    height: 70%;
+    top: 20%;
+    left: 4%;
+    width: 36%;
+    height: 76%;
     background: rgba(0, 0, 0, 0.75);
 }
 
 .header-overlay h1 {
     color: white;
-    width: 70%;
-    display: flex-start;
+    width: 75%;
     text-align: left;
 }
 
 .header-overlay p {
     color: white;
-    left: 5%;
-    width: 90%;
+    width: 88%;
     font-weight: bold;
-    display: flex-start;
     text-align: left;
 }
 
 nav {
-    left: 5%;
-    width: 90%;
+    width: 88%;
     display: flex;
     justify-content: center;
 }
 
 .nav-menu {
-    gap: 5%;
+    gap: 4%;
 }
 
 nav a {
@@ -93,7 +87,7 @@ nav a:hover {
     color: black;
     font-weight: bold;
     background: #FFFFFF;
-    border-radius: 40%;
+    border-radius: 4%;
 }
 
 /* Estilo de las categorías de productos y servicios */
@@ -103,7 +97,6 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50%;
     background: #FFFFFF;
     flex-wrap: wrap; /* Para que se acomoden en varias filas en pantallas pequeñas */
 }
@@ -117,10 +110,10 @@ nav a:hover {
 }
 
 .casilla-categoria img {
-    width: 25%; /* Ajusta a tu necesidad */
-    height: 50%;
+    width: 28%; /* Ajusta a tu necesidad */
+    height: 68%;
     object-fit: cover; /* Ajuste para que no se deformen */
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .casilla-categoria p {
@@ -184,6 +177,7 @@ nav a:hover {
 }
 
 .mosaico-overlay {
+    padding-left: 2%;
     position: absolute;
     top: 15%;
     left: 2%;
@@ -193,23 +187,21 @@ nav a:hover {
     text-align: center;
 }
 
-.mosaico-overlay h2 {
+.mosaico-overlay h2, h3 {
     color: white;
     margin: 0;
-    padding: 10px;
+    padding: 1%;
 }
 
 .mosaico-overlay p {
     color: white;
-    font-weight: bold;
-    margin: 10px 0;
+    margin: 1%;
 }
 
 /* Estilo de la sección de redes */
 
 .redes {
-    text-align: left;
-    padding: 1% 24%;
+    padding:1%;
     background: #FFFFFF;
 }
 
@@ -218,21 +210,13 @@ nav a:hover {
     justify-content: left;
 }
 
-.redes-sociales a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 .redes-sociales a:hover {
     background: #E2E2E2;
 }
 
 .icono-redes {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -273,6 +257,7 @@ footer {
 
 .boton-morado {
     display: inline-block;
+    align-items: end;
     padding: 15px 30px;
     color: white;
     text-decoration: none;
@@ -298,7 +283,7 @@ footer {
 }
 
 .boton-amarillo:hover {
-    background: #FFD800;
+    background: #FFFFFF;
 }
 
 html {
