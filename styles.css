@@ -14,12 +14,12 @@ h1, h2, h3, h4, h5 {
 h1 { font-size: 5vw; }
 h2 { font-size: 4vw; }
 h3 { font-size: 3vw; }
-h4 { font-size: 2.25vw; }
-h5 { font-size: 1.5vw; }
+h4 { font-size: 2.25rem; }
+h5 { font-size: 1.5rem; }
 
 p, a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9375vw;
+    font-size: 0.9375rem;
     text-decoration: none;
 }
 
@@ -44,12 +44,11 @@ header {
 }
 
 .header-overlay {
-    padding-left: 4%;
+    padding: 2%;
     position: absolute;
-    top: 20%;
-    left: 4%;
-    width: 36%;
-    height: 76%;
+    inset-block-start: 20%;
+    inset-inline-start: 10%;
+    width: 32%;
     background: rgba(0, 0, 0, 0.75);
 }
 
@@ -125,7 +124,7 @@ nav a:hover {
 /* Estilo del mosaico de imagenes */
 
 .hero {
-    background: #633BF2;
+    background: #FFFFFF;
 }
 
 .hero img {
@@ -179,9 +178,9 @@ nav a:hover {
 .mosaico-overlay {
     padding-left: 2%;
     position: absolute;
-    top: 15%;
-    left: 2%;
-    width: 45%;
+    inset-block-start: 20%;
+    inset-inline-start: 5%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     text-align: center;
