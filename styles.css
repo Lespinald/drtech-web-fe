@@ -14,12 +14,11 @@ h1, h2, h3, h4, h5 {
 h1 { font-size: 5vw; }
 h2 { font-size: 4vw; }
 h3 { font-size: 3vw; }
-h4 { font-size: 2.25rem; }
-h5 { font-size: 1.5rem; }
+h4 { font-size: 2.25vw; }
+h5 { font-size: 1.5vw; }
 
 p, a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9375rem;
     text-decoration: none;
 }
 
@@ -46,9 +45,9 @@ header {
 .header-overlay {
     padding: 2%;
     position: absolute;
-    inset-block-start: 20%;
+    inset-block-start: 18dvh;
     inset-inline-start: 10%;
-    width: 32%;
+    width: 36%;
     background: rgba(0, 0, 0, 0.75);
 }
 
@@ -60,6 +59,7 @@ header {
 
 .header-overlay p {
     color: white;
+    font-size: 0.9375rem;
     width: 88%;
     font-weight: bold;
     text-align: left;
@@ -79,6 +79,7 @@ nav a {
     border: 1%;
     padding: 1%;
     color: white;
+    font-size: 0.9375rem;
     font-weight: bold;
 }
 
@@ -226,8 +227,7 @@ nav a:hover {
 footer {
     background: #E2E2E2;
     color: black;
-    padding: 2%;
-    margin-top: 10px;
+    padding: 1%;
     text-align: center;
 }
 
@@ -235,7 +235,6 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px 0;
     background: #E2E2E2;
 }
 
@@ -257,7 +256,9 @@ footer {
 .disclaimer {
     padding-left: 20%;
     width: 60%;
+    font-size: 0.75rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
