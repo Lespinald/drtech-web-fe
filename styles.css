@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5 {
 h1 { font-size: 5vw; }
 h2 { font-size: 4vw; }
 h3 { font-size: 3vw; }
-h4 { font-size: 2.25vw; }
-h5 { font-size: 1.5vw; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25vw; }
 
 p, a {
     font-family: 'Montserrat', sans-serif;
@@ -254,13 +254,13 @@ footer {
 }
 
 .disclaimer {
-    padding-left: 20%;
-    width: 60%;
+    padding-left: 8%;
+    width: 80%;
     font-size: 0.75rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* Estilo de los botones */
