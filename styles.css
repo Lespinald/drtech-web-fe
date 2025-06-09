@@ -11,15 +11,15 @@ h1, h2, h3, h4, h5 {
     font-weight: lighter;
 }
 
-h1 { font-size: 4.5em; }
-h2 { font-size: 4em; }
-h3 { font-size: 3em; }
-h4 { font-size: 2.25em; }
-h5 { font-size: 1.5em; }
+h1 { font-size: 5vw; }
+h2 { font-size: 4vw; }
+h3 { font-size: 3vw; }
+h4 { font-size: 2.25vw; }
+h5 { font-size: 1.5vw; }
 
 p, a {
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9375em;
+    font-size: 0.9375vw;
     text-decoration: none;
 }
 
@@ -201,13 +201,16 @@ nav a:hover {
 /* Estilo de la sección de redes */
 
 .redes {
-    padding:1%;
+    padding-left:4%;
+    margin: 1%;
+    display: flex;
+    gap: 10%;
     background: #FFFFFF;
 }
 
 .redes-sociales {
-    display: flex;
-    justify-content: left;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .redes-sociales a:hover {
@@ -215,8 +218,7 @@ nav a:hover {
 }
 
 .icono-redes {
-    width: 50%;
-    height: 50%;
+    width: 25%;
 }
 
 
@@ -251,6 +253,14 @@ footer {
 
 .footer-column a:hover {
     text-decoration: underline;
+}
+
+.disclaimer {
+    padding-left: 20%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Estilo de los botones */
