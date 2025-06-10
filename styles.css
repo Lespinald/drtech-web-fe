@@ -24,7 +24,7 @@ p, a {
 
 header {
     background-color: #633BF2;
-    padding-left: 3%;
+    padding-left: 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +177,7 @@ nav a:hover {
 }
 
 .mosaico-overlay {
-    padding-left: 2%;
+    padding-left: 4%;
     position: absolute;
     inset-block-start: 20%;
     inset-inline-start: 5%;
@@ -201,24 +201,31 @@ nav a:hover {
 /* Estilo de la sección de redes */
 
 .redes {
-    padding-left:4%;
+    padding-left: 4%;
     margin: 1%;
     display: flex;
-    gap: 10%;
     background: #FFFFFF;
 }
 
 .redes-sociales {
+    display: grid;
+    grid-template-columns: repeat(5, 10%);
+    gap: 10%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.redes-sociales a{
+    padding: 20%;
 }
 
 .redes-sociales a:hover {
-    background: #E2E2E2;
+    padding: 5%;
 }
 
 .icono-redes {
-    width: 25%;
+    width: 100%;
+    height: 100%;
 }
 
 
