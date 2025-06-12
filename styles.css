@@ -169,7 +169,7 @@ nav a:hover {
 }
 
 /* En móviles */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .mosaico {
         display: flex;
         flex-direction: column;
@@ -214,7 +214,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .mosaico {
         display: flex;
         flex-direction: column;
@@ -224,7 +224,7 @@ nav a:hover {
         all: unset;
         position: relative;
         width: 100%;
-        margin-bottom: 1%;
+        margin-bottom: 2%;
     }
 
     .mosaico-item img {
@@ -256,15 +256,29 @@ nav a:hover {
     }
 
     .mosaico-overlay h3 {
-        font-size: 2rem;
+        font-size: 7vw;
     }
 
     .mosaico-overlay h2 {
-        font-size: 3rem;
+        font-size: 8vw;
     }
 
     .mosaico-overlay p {
         display: none
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1424px) {
+    .mosaico-overlay h3 {
+        font-size: 4vw;
+    }
+
+    .mosaico-overlay h2 {
+        font-size: 5vw;
+    }
+
+    .mosaico-overlay p {
+        display: none;
     }
 }
 
