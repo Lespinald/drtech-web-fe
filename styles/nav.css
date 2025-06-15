@@ -1,0 +1,24 @@
+nav {
+    width: 88%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    gap: 4%;
+}
+
+nav a {
+    border: 1%;
+    padding: 1%;
+    color: white;
+    font-size: 0.9375rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: bold;
+    background: #FFFFFF;
+    border-radius: 4%;
+}

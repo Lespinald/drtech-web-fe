@@ -1,0 +1,38 @@
+.categorias {
+    padding: 3% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+}
+
+.casilla-categoria {
+    display: flex;
+    flex-direction: column; /* Alinear imagen y texto en columna */
+    align-items: center; /* Centrar horizontalmente imagen y texto */
+    justify-content: center;
+    text-align: center;
+}
+
+.casilla-categoria img {
+    width: 28%;
+    height: 68%;
+    object-fit: cover; /* Ajuste para que no se deformen */
+    margin-bottom: 1rem;
+}
+
+.casilla-categoria p {
+    color: black;
+    font-weight: bold;
+    margin: 1%;
+}
+
+@media (max-width: 767px) {
+    .casilla-categoria img {
+    width: 60%;
+    height: 68%;
+    object-fit: cover; /* Ajuste para que no se deformen */
+    margin-bottom: 0.5rem;
+}
+}

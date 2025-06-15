@@ -1,0 +1,27 @@
+.redes {
+    padding-left: 4%;
+    margin: 1%;
+    display: flex;
+    background: #FFFFFF;
+}
+
+.redes-sociales {
+    display: grid;
+    grid-template-columns: repeat(5, 10%);
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales a{
+    padding: 20%;
+}
+
+.redes-sociales a:hover {
+    padding: 5%;
+}
+
+.icono-redes {
+    width: 100%;
+    height: 100%;
+}

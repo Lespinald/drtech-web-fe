@@ -45,7 +45,7 @@ header {
 .header-overlay {
     padding: 2%;
     position: absolute;
-    inset-block-start: 18dvh;
+    inset-block-start: 15%;
     inset-inline-start: 10%;
     width: 36%;
     background: rgba(0, 0, 0, 0.75);
@@ -63,6 +63,27 @@ header {
     width: 88%;
     font-weight: bold;
     text-align: left;
+}
+
+@media (max-width: 1424px) {
+    .header-overlay {
+        inset-block-start: 50vw; 
+        inset-inline-start: 50vw;
+        transform: translate(-50%, -100%);
+        width: 80%;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .header-overlay p {
+        display: none;
+    }
+
+    .header-overlay a {
+        font-size: 2vw;
+        padding: 4%;
+        width: 90%;
+    }
 }
 
 nav {
@@ -120,6 +141,15 @@ nav a:hover {
     color: black;
     font-weight: bold;
     margin: 1%;
+}
+
+@media (max-width: 767px) {
+    .casilla-categoria img {
+    width: 60%;
+    height: 68%;
+    object-fit: cover; /* Ajuste para que no se deformen */
+    margin-bottom: 0.5rem;
+}
 }
 
 /* Estilo del mosaico de imagenes */

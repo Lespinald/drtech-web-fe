@@ -1,0 +1,9 @@
+.banner-overlay {
+    position: absolute;
+    inset-block-start: 50%; /* ajusta verticalmente */
+    inset-inline-start: 50%; /* centrado horizontal */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
