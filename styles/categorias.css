@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column; /* Alinear imagen y texto en columna */
     align-items: center; /* Centrar horizontalmente imagen y texto */
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -29,10 +29,17 @@
 }
 
 @media (max-width: 767px) {
+    .categorias {
+        padding: 2%;
+    }
     .casilla-categoria img {
-    width: 60%;
-    height: 68%;
+    width: 50%;
+    height: 58%;
     object-fit: cover; /* Ajuste para que no se deformen */
     margin-bottom: 0.5rem;
 }
+
+    .casilla-categoria p {
+        font-size: 0.6rem; 
+    }
 }

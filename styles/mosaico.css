@@ -44,22 +44,6 @@
 }
 
 /* En móviles */
-@media (max-width: 767px) {
-    .mosaico {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mosaico-item {
-        all: unset;
-        width: 100%;
-    }
-
-    .mosaico-item img {
-        width: 100%;
-        height: auto;
-    }
-}
 
 .mosaico-item {
     position: relative;
@@ -117,10 +101,10 @@
         justify-content: center;
         justify-items: center;
         text-align: center;
-        font-size: 1rem;
     }
     
     .mosaico-item .boton-morado {
+        margin: 10%;
         padding: 4%;
         width: 90%;
     }
@@ -130,12 +114,9 @@
         width: 90%;
     }
 
-    .mosaico-overlay h3 {
-        font-size: 7vw;
-    }
-
-    .mosaico-overlay h2 {
-        font-size: 11vw;
+    .mosaico-overlay h2, h3 {
+        margin: 5%;
+        font-size: 2rem;
     }
 
     .mosaico-overlay p {
@@ -144,15 +125,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 1424px) {
-    .mosaico-overlay h3 {
-        font-size: 4vw;
-    }
-
-    .mosaico-overlay h2 {
-        font-size: 5vw;
+    .mosaico-overlay h2, h3 {
+        font-size: 2.3rem;
     }
 
     .mosaico-overlay p {
         display: none;
+    }
+
+    .mosaico-item .boton-morado {
+        align-items: center;
+        width: 100%;
+    }
+
+    .mosaico-item .boton-amarillo {
+        align-items: center;
+        width: 100%;
     }
 }

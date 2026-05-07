@@ -5,6 +5,13 @@
     background: #FFFFFF;
 }
 
+.redes-p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
 .redes-sociales {
     display: grid;
     grid-template-columns: repeat(5, 10%);
@@ -24,4 +31,27 @@
 .icono-redes {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 767px) {
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+        margin: 2%;
+    }
+
+    .redes-p {
+        font-size: 0.8rem;
+    }
+
+    .redes-sociales {
+        grid-template-columns: repeat(5, 10%);
+        gap: 5%;
+    }
+
+    .redes-sociales a {
+        padding: 10%;
+    }
 }

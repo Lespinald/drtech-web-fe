@@ -21,3 +21,5 @@ function moveSlide(step) {
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(slideIndex);
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
